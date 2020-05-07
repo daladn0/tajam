@@ -1,0 +1,45 @@
+/*fonts*/
+
+.title-playfair{
+	color: #413d4b;
+	font-family: 'Playfair Display', serif;
+	font-size: 22px;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+.p-roboto-l{
+	color: #413d4b;
+	font-family: 'Roboto', sans-serif;
+	font-size: 14px;
+	font-weight: 300;
+	opacity: .75;
+}
+
+/*button*/
+
+.btn-blue{
+	height: 40px;
+	padding: 0 15px;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	border: 1px solid #00e0d0;
+	border-radius: 2px;
+
+	color: #00e0d0;
+	font-family: 'Hammersmith One', sans-serif;	
+	font-size: 16px;
+	font-weight: 400;
+	text-decoration: none;
+	text-transform: uppercase;
+
+	transition: all .2s;
+}
+
+.btn-blue:hover{
+	background: #00e0d0;
+	color: #fff;
+}
